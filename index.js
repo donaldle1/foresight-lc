@@ -29,6 +29,9 @@ app.use(validationManager.provideDefaultValidator());
 // Setup routes
 app.use('/', routes);
 
+
+const checkExist = "This is a check exist case"
+
 const baseErr="configuration success"
 const domain="tahaewvs.io"
 
