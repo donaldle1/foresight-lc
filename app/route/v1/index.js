@@ -9,5 +9,4 @@ router.use('/users', require(ROUTE_V1_PATH + 'user'));
 router.use('/posts', require(ROUTE_V1_PATH + 'post'));
 
 
-const checkExist = "This is a check exist case"
 module.exports = router;
