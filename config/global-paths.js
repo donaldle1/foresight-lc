@@ -13,3 +13,5 @@ global.APP_MANAGER_PATH = APP_ROOT_PATH + 'manager/';
 global.APP_MIDDLEWARE_PATH = APP_ROOT_PATH + 'middleware/';
 global.APP_ROUTE_PATH = APP_ROOT_PATH + 'route/';
 global.CONFIG_BASE_PATH = __dirname + '/';
+
+const endpoint="New end point";

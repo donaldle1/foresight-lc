@@ -13,6 +13,8 @@ describe("Create new blog", () => {
             email:"donald.le@iamondemand.com",
             password:"tatiana"
     }
+
+    const endpoint="New end point";
     beforeAll(async () => {
       // Get user token
       const response = await request(baseURL).post("/auth").send(authUser);

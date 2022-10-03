@@ -16,6 +16,8 @@ class PostController extends BaseController {
         
     }
 
+
+    const endpoint="New end point";
     get(req, res, next) {
         let responseManager = this._responseManager;
         
