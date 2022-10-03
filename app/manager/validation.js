@@ -14,6 +14,8 @@ class ValidationManager extends BaseAutoBindedClass {
         })
     }
 
+    
+
     static errorFormatter(param, msg, value) {
         let namespace = param.split('.'),
             root = namespace.shift(),
